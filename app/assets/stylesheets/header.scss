@@ -1,0 +1,56 @@
+/* app/assets/header.scss */
+
+.background{ 
+    background: url("book_spines.jpg");
+    
+  .layer {
+    background:rgba(41,2,1,0.8);
+        
+      .app-header {
+      height: 165px;
+      padding-top: 1px;
+      overflow: hidden;
+      padding-left: 50px;
+      padding-top: 50px;
+      color: white;
+            
+            h1 {
+            font-size: 3em;
+            font-weight: bold;
+         }
+            h2 {
+            font-size: 1em;    
+            padding-left: 125px;
+        
+         }
+      }
+    }
+    
+    #mainNav {
+    overflow: hidden;
+    padding-left: 50px;
+    background: rgb(173, 169, 130);
+        h2 {
+        display: none;
+       }
+        ul {
+        list-style: none;
+       }
+        li {
+        float: left;
+        margin-right: 3.6em;
+        }
+        a {
+        display: block;
+        color: black;
+        border: none;
+        font-size: 1.2em;
+        text-align: center;
+        
+        &:hover{
+        color:maroon;
+        box-shadow: inset 0 4px 0 0 maroon;
+        }
+        }
+    }
+}

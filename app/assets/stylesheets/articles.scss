@@ -1,0 +1,89 @@
+/* app/assets/layout.scss */
+
+/*Global Styles */
+
+html {
+    background: white;
+    color: black;
+}
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    position: relative;
+    font-weight:normal;
+    font-style:normal;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(192,112,65);
+}
+
+.app-cont {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.app-cont-thin {
+  max-width: 650px;
+  background: #fff;
+  padding: 1em 0;
+  border-radius: 3px;
+}
+
+.bookTitle {
+    font-style:italic;
+}
+
+/* Article Styles */
+
+article {
+    float: left;
+    width: 969px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    background: white;
+    h2{
+    font-size: 2em;    
+    }
+    .byLine{
+    font-size: 1.5em;
+    }
+
+    .img {
+        float:right;
+        height: 460px;
+        width: 308px;
+     }
+}
+
+/* Comment Styles/
+
+
+
+/* Aside Styles */
+
+aside {
+    float: right;
+    width: 260px;
+    border: 1px solid maroon;
+        h2 {
+            font-family: Cardo, Georgia, Times, serif;
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 1em;
+            background:maroon;
+            color: white;
+            padding: 10px;
+
+        }
+        p {
+        padding: 10px 20px;
+        }
+    
+}
+

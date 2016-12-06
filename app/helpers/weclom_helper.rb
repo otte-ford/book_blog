@@ -1,0 +1,2 @@
+module WeclomHelper
+end
